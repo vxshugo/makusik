@@ -1,0 +1,84 @@
+<!doctype>
+<html>
+<head>
+
+	<!-- Place this data between the <head> tags of your website -->
+	<title>it's a(door)able</title>
+	<meta name="description" content="a one-minute minigame."/>
+	<link rel="icon" type="image/png" href="favicon.png">
+
+	<!-- Schema.org markup for Google+ -->
+	<meta itemprop="name" content="it's a(door)able">
+	<meta itemprop="description" content="a one-minute minigame for Madina">
+
+	<!-- Style -->
+	<link rel="stylesheet" type="text/css" href="css/index.css"> 
+
+</head>
+<body>
+
+	<div id="loading"><div>LOADING</div></div>
+
+	<div id="whole_container">
+
+		<!--span style="display:none"-->
+		<div id="screen_one">
+			<canvas id="canvas_intro"></canvas>
+		</div>
+
+		<div id="screen_two">
+			<div id="canvas_container">
+
+				<canvas id="canvas_1" width="300" height="380"></canvas>
+				<canvas id="canvas_2" width="300" height="380"></canvas>
+				<canvas id="canvas_3" width="300" height="380" style="margin:0"></canvas>
+				
+				<div id="valentines_text"></div>
+				<div id="rewind_text">rewinding...</div>
+				<div id="replay_text">playing back...</div>
+
+			</div>
+		</div>
+		<!--/span-->
+
+		<div id="screen_three">
+
+			<div id="bottom">
+				<a href="https://instagram.com/hugovxs">made by @hugovxs</a>
+			</div>
+
+			<div id="end_container">
+
+				<span style="font-size:28px;">P.S: Я не так люблю писать смазливые текста(ты сама знаешь)</span><br>
+				<span style="font-size:28px;">Самое главное я люблю тебя и уважаю + не хочу чтобы ты грустила 14-го февраля</span><br>
+
+				<input style="display: none" id="your_message" placeholder="(enter lovely message)"></input>
+
+				<span style="display: none">then just copy &amp; send this link to your lover(s):</span>
+				<input style="display: none" id="your_link" readonly></input>
+
+				<br>
+				<br>
+
+				<span style="font-size:30px">
+					Спасибо за уделенное время &lt;3
+				</span>
+
+				<span style="color: #333333; font-size: 12px">
+					made by vxshugo
+				</span>
+			</div>
+		</div>
+		
+	</div>
+</body>
+</html>
+
+<script src="js/Key.js"></script>
+<script src="js/game.js"></script>
+<script src="js/popup.js"></script>
+<script src="js/soundjs-0.6.0.min.js"></script>
+
+<script>
+//STAGE = 4;
+</script>
